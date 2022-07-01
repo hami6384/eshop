@@ -1,0 +1,98 @@
+.wrapper {
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+/*header*/
+
+.header {
+    background-color: #232f3e;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.header a {
+    color: #bcbdc7;
+    transition: all 0.3s linear;
+}
+
+.topinfo {
+    border-bottom: 1px solid #303e4f;
+    justify-content: space-between;
+}
+
+.accountlink {
+    display: block;
+    padding: 5px 12px;
+}
+
+.accountlink>i {
+    padding-left: 4px;
+}
+
+.accountlink:hover {
+    color: #fff;
+}
+
+.languages {
+    padding: 5px 0 0 10px;
+}
+
+.fa-icon {
+    width: 25px;
+    vertical-align: middle;
+    padding: 0 0 0 5px;
+}
+
+.header_info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    justify-content: center;
+    height: 40px;
+}
+
+.categoryslist {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 15px 15px 0;
+}
+
+.searchinput {
+    border: none;
+    padding: 8px 15px;
+}
+
+.btnsearch {
+    padding: 10px 15px;
+    border-radius: 20px 0 0 20px;
+    color: #fff !important;
+    background-color: #f4a137;
+}
+
+.contactus {
+    margin: 0 0.8em;
+    font-size: 0.9em;
+}
+
+.contactusicon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+.cart {
+    font-size: 0.9em;
+}
+
+.contacticon {
+    margin-top: 11px;
+}
+
+.carticon {
+    background-color: #f4a137;
+    padding: 5px;
+    margin-top: 4px;
+}
