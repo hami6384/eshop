@@ -234,6 +234,11 @@
     padding: 10px;
 }
 
+.ts_itemdetail {
+    margin: 10px;
+    padding: 10px;
+}
+
 .productimage {
     width: 100%;
 }
@@ -279,6 +284,11 @@
     opacity: 1;
 }
 
+.ts_itemdetail:hover .btn_default {
+    top: 50%;
+    opacity: 1;
+}
+
 .ts_productitemdetail .btn_default {
     position: absolute;
     top: -100%;
@@ -288,10 +298,106 @@
     transition: all 0.1s linear;
 }
 
+.ts_itemdetail .btn_default {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.1s linear;
+}
+
+.ts_detailthumb li {
+    border: 1px solid #ddd;
+    padding: 2px;
+    margin-left: 2px;
+}
+
 .banner {
     padding: 10px;
 }
 
 .banner img {
     width: 100%;
+    display: block;
+}
+
+.newproductitems {
+    width: 25%;
+}
+
+.collctionitem {
+    width: 16.5%;
+    flex-grow: 1;
+}
+
+.collctiondetailitem {
+    background-color: #eee;
+    border: 1px solid transparent;
+    margin: 5px;
+}
+
+.hotsaleitemcontainer {
+    flex-wrap: wrap;
+}
+
+.hotsaleitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.hotsaledetil {
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.hotsaleimage {
+    width: 150px;
+}
+
+.hotsaleimage img {
+    width: 100%;
+}
+
+.hotsaleinfo {
+    flex-grow: 1;
+}
+
+.hotcategorysitems {
+    width: 25%;
+}
+
+.hotcategorydetails {
+    margin: 10px;
+}
+
+.hotcategoryimage {
+    position: relative;
+}
+
+.hotcategoryimage .btn {
+    position: absolute;
+    bottom: 30px;
+    right: 180px;
+}
+
+.hotcategoryimage img {
+    width: 100%;
+}
+
+.hotcategorylist {
+    list-style: circle;
+}
+
+.hotcategorylistitem {
+    margin-right: 13px;
+}
+
+.hotcategorytitle a:hover {
+    color: #f4a137;
+}
+
+.hotcategorylistitem:hover,
+a:hover {
+    color: #f4a137;
 }
