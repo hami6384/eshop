@@ -21,11 +21,15 @@
     background-color: #f4a137;
     color: #fff;
 }
+
+
 /*efect*/
-.overly_image{
+
+.overly_image {
     position: relative;
 }
-.overly_image::before{
+
+.overly_image::before {
     position: absolute;
     content: ' ';
     width: 100%;
@@ -35,6 +39,7 @@
     transform: scaleX(0);
     transition: all 0.2s linear;
 }
-.overly_image:hover::before{
+
+.overly_image:hover::before {
     transform: scaleX(1);
 }
